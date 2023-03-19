@@ -17,8 +17,13 @@ $(function() {
         } else {
             elms[i].value = item[i+1].index;
             }
+<<<<<<< HEAD
         $(cards).find(".full_name").html(full_name);
         $(cards).find(".post_department").html(department + ", " + post);
+=======
+        $(cards).find(".card-title").html(full_name);
+        $(cards).find(".card-text").html(department + ", " + post);
+>>>>>>> 6ff35856d1df8e93b49f87aa392c3f728bc15873
         $(cards).show()
         $(cards).appendTo($(".info_teacher"))
         }

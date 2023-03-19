@@ -33,6 +33,7 @@
             <form action="/find" method="post" role="form">
                 <div class="mb-3">
                     <h4>Введите номер группы (ХХ.YХХ-мм):</h4>
+<<<<<<< HEAD
                     <input type="text" class="subscribe-form" name="student" autofocus="autofocus" value="{{student}}">
                 </div>
                 <div class="mb-3">
@@ -45,6 +46,13 @@
                     <label class="form-check-label" for="flexCheck">
                         Местоположение не важно
                     </label>
+=======
+                    <input type="text" class="subscribe-form" name="student">
+                </div>
+                <div class="mb-3">
+                    <h4>Введите ФИО преподавателя:</h4>
+                    <input type="text" class="subscribe-form" name="teacher">
+>>>>>>> 6ff35856d1df8e93b49f87aa392c3f728bc15873
                 </div>
                 <div class="output">
                     <button type="submit">
@@ -58,6 +66,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="card">
+<<<<<<< HEAD
                         <form action="/time" method="post" class="form-submit">
                             <button id="button" type="submit" class="btn btn-outline-dark stretched-link">
                                 <h5 class="full_name">${full_name}</h5>
@@ -66,12 +75,28 @@
                                 <input type="hidden" name="flag" value="{{flag}}">
                             </button>
                         </form>
+=======
+                        <div class="card-body">
+                            <h5 class="card-title">${full_name}</h5>
+                            <h4 class="card-text">${post}, ${department}</h4>
+                            <form action="/time" method="post" class="form-submit">
+                                <input type="hidden" name="id" id="id">
+                                <button id="button" type="submit" class="btn btn-outline-dark stretched-link" ><h4>Выбрать</h4></button>
+                            </form>
+                        </div>
+>>>>>>> 6ff35856d1df8e93b49f87aa392c3f728bc15873
                     </div>
                 </div>
             </div>
         </div>
+<<<<<<< HEAD
     </div>
 
+=======
+
+
+    </div>
+>>>>>>> 6ff35856d1df8e93b49f87aa392c3f728bc15873
 </header>
 </body>
 
